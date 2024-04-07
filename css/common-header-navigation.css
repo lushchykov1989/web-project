@@ -9,8 +9,6 @@ header {
   width: 100%;
   flex-direction: row;
   display: flex;
-  align-items: center;
-  background-image: url(../../img/header-gif.gif);
 }
 
 .header__nav {
