@@ -10,6 +10,7 @@ header {
   flex-direction: row;
   display: flex;
   align-items: center;
+  background-image: url(../../img/header-gif.gif);
 }
 
 .header__nav {
@@ -20,7 +21,7 @@ header {
 
 .header__logo {
   margin-bottom: 20px;
-  background-image: url(../../img/header-gif.gif)
+  background-image: url(../../img/header-gif.gif);
 }
 
 .nav__list {
