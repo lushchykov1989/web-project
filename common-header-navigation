@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deadend Men</title>
+    <link rel="stylesheet" href="css/common-header-navigation.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <!-- Navigation Block for ABOUT US, DISTRIBUTION, COLLECTION -->
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <img style="nav__icon" src="img/skull-svg.svg" alt="Icon" class="nav__icon">
+                        ABOUT US
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <img style="nav__icon" src="img/skull-svg.svg" alt="Icon" class="nav__icon">
+                        MUSIC
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <img style="nav__icon" src="img/skull-svg.svg" alt="Icon" class="nav__icon">
+                        MERCH
+                    </a>
+                </li>
+            </ul>
+            <!-- Logo Block -->
+            <div class="header__logo">
+                <a href="index.html" class="logo__link">
+                    <img
+                        width="1002"
+                        src="img/ddndmn-logo.svg"
+                        alt="Deadend Men Logo"
+                        class="logo__img"
+                    />
+                </a>
+            </div>
+            <!-- Navigation Block for TESTING, WINE CLUB, CONTACTS -->
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <img style="nav__icon" src="img/skull-svg.svg" alt="Icon" class="nav__icon">
+                        VIDEO
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <img style="nav__icon" src="img/skull-svg.svg" alt="Icon" class="nav__icon">
+                        TEXTS
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="contacts.html" class="nav__link">
+                        <img style="nav__icon" src="img/skull-svg.svg" alt="Icon" class="nav__icon">
+                        CONTACTS
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

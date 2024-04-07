@@ -15,31 +15,39 @@
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/index.css" />
   </head>
-  <body bgcolor="#B76666">
-    <header>
-    <p style="text-align:center"<h1><font size="20" color="#800000" face="font-family: Georgia, Georgia, Times New Roman, serif">Welcome to the world of doom and sludge</font></h1></p>
-  </header>
-  <p style="text-align:center"<h2><style></style>Kyiv 2024</h2></p>
-  <img width="666" src="img/DM_cover_620.jpg" alt="Deadend Men"/>
-</p> 
-  <ul> <font size="20" color="#800000" face="font-family: Georgia, Georgia, serif"></font>
-    <li>Intro</li>
-    <li>Message</li>
-    <li>Enjoy Your Joint</li>
-    <li>Good New Stuff</li>
-    <li>Gorgeous Liars, Proud Thieves</li>
-    <li>Song in a Drunk Head</li>
-    <li>Borrowed Dreams</li>
-    <li>Common Mind Inhumed</li>
-    <li>Synonims</li>
-    <li>Someone In Between</li>
-    <li>Су**деяє (AOOH Cover)</li>
-</p>
-<iframe width="666" height="333" src="https://www.youtube.com/embed/sxoPvCSROm8" title="Deadend Men - Deadend Men (2023 Full Album)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</p>
-<img width="666" src="img/pm.jpg" alt="Deadend Men"/>
-<p style="text-align:center"<h2><style></style>deadendmen</h2></p>
-<footer><p style="text-align:center"<h1><font size="20" color="#800000" face="font-family: Georgia, Georgia, Times New Roman, serif"></font>Check on <a href="https://deadendmen.bandcamp.com/album/deadend-men">BandCamp</a></footer>
+  <body class="body">
+    <header class="header">
+      <nav
+        class="header__address"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="common-header-navigation.html"
+      ></nav>
+    </header>
+    <article class="hero">
+      <div
+        class="hero-modifier"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.hero.html"
+      ></div>
+    </article>
+    <div>
+      <div
+        class="hero-modifier"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="bandcamp.html"
+    ></div>
+    </div>
+    <video class ="video" 
+        <div
+          data-hx-trigger="load"
+          data-hx-swap="outerHTML"
+          data-hx-get="index.video.html"
+        ></div>
+    </video>
   </body>
 </html>
