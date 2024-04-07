@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title class="html__title">Html Sample</title>
+    <link
+      rel="shortcut icon"
+      href="img/DM_cover_620.jpg"
+      type="image/x-icon"
+      class="html__favicon"
+    />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+      class="html__script"
+    ></script>
+  </head>
+  <body class="body body--color-red">
+    <header class="header">
+      <h1 class="header__title">Welcome to the world of doom and sludge</h1>
+    </header>
+    <p class="body__subtitle">Kyiv 2024</p>
+    <img
+      src="img/DM_cover_620.jpg"
+      alt="Deadend Men"
+      class="body__image body__image--size-large"
+    />
+    <ul class="body__list">
+      <li class="body__item">Intro</li>
+      <li class="body__item">Message</li>
+      <li class="body__item">Enjoy Your Joint</li>
+      <li class="body__item">Good New Stuff</li>
+      <li class="body__item">Gorgeous Liars, Proud Thieves</li>
+      <li class="body__item">Song in a Drunk Head</li>
+      <li class="body__item">Borrowed Dreams</li>
+      <li class="body__item">Common Mind Inhumed</li>
+      <li class="body__item">Synonims</li>
+      <li class="body__item">Someone In Between</li>
+      <li class="body__item">Су**деяє (AOOH Cover)</li>
+    </ul>
+    <iframe
+      width="666"
+      height="333"
+      src="https://www.youtube.com/embed/sxoPvCSROm8"
+      title="Deadend Men - Deadend Men (2023 Full Album)"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+      class="body__video"
+    ></iframe>
+    <img src="img/pm.jpg" alt="Deadend Men" class="body__image body__image--size-large" />
+    <p class="body__subtitle body__subtitle--emphasis">deadendmen</p>
+    <footer class="footer">
+      <h1 class="footer__title">Check on <a href="https://deadendmen.bandcamp.com/album/deadend-men" class="footer__link">BandCamp</a></h1>
+    </footer>
+  </body>
+</html>
+
+
