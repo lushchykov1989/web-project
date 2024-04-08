@@ -1,7 +1,6 @@
 .indexhero {
   position: relative;
   height: 100vh;
-  background-image: url("img/hero-picture.svg");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,4 +8,8 @@
 .indexhero__text {
   text-align: center;
   color: white;
+}
+.indexhero__image {
+  text-align: center;
+  max-width: 50%;
 }

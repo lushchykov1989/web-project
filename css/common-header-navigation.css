@@ -1,9 +1,5 @@
 
 header {
-  font-family: "Gravitas One", serif;
-  font-weight: 400;
-  font-style: normal;
-  scroll-behavior: smooth;
   font color: black;
   padding: 0;
   width: 100%;
@@ -31,8 +27,14 @@ header {
 
 .nav__item {
   margin: 0 10px; /* Додайте відступи за потреби */
+  
 }
-
+.nav__icon:active {
+  color: rgb(224, 31, 31);
+}
+.nav__icon:hover {
+  color: rgb(7, 7, 7);
+}
 .nav__link {
   text-decoration: none;
   color: rgba(0, 0, 0, 0); 
