@@ -1,5 +1,4 @@
 @import "global.css";
-@import "common-header-navigation.css";
-@import "index.hero.css"
-@import "video.css"
-@import "bandcamp.css"
+@import "header.css";
+@import "controls.css";
+@import "index.hero.css";

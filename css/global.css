@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Gravitas+One&family=Marcellus&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&family=Rubik+Glitch&display=swap');
 
 * {
   margin: 0;
@@ -7,35 +7,23 @@
 }
 
 :root {
+  --accent-color: #e96a4b;
   --text-color: black;
-  --title-color: red;
-  font-family: "Gravitas One", serif;
-  font-weight: 400;
-  font-style: normal;
+  --border-color: black;
+  font-family: "Rubik Glitch", system-ui;
   scroll-behavior: smooth;
-  font color: black;
 }
 
-h1,
-h2,
-h3,
-h4,
-p {
-  color: var(--title-color);
-  text-align: center;
-}
-
-body {
-    background-image: url(../../img/temporary-background.webp);
-}
 img {
   display: block;
   width: 100%;
 }
-a:hover {
-  color: rgb(7, 7, 7);
+.container {
+  max-width: 1200px;
+  margin: auto;
 }
-
-a:active {
-  color: rgb(224, 31, 31);
+@media (min-width: 980px) {
+    .container { 
+        padding: 0 0 px;
+    }
 }
