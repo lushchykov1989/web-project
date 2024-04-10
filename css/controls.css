@@ -4,7 +4,7 @@
     justify-content: space-around;
     gap: 3px;
     padding: 5px 15px;
-    background-color: var(--accent-color);
+    background-color: var(--accent-color) rgba(rgb(233, 223, 223), green, blue, alpha);
     text-decoration: none;
     color: var(--text-color);
     border-radius: 5px;
@@ -13,6 +13,4 @@
     :hover {
         text-decoration: underline;
 }
-.skull-logo {
-    width: 20px;
-}}
+}
