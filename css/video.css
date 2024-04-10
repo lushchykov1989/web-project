@@ -1,0 +1,27 @@
+.video-gallery {
+  display: grid;
+  gap: 5px;
+  background-color: var(--accent-color);
+  padding: 5px;
+  background-size: cover;
+  min-width: auto;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .videos {
+    border: 1px solid var(--border-color);
+    padding: 5px;
+  }
+}
+@media (min-width: 600px) {
+  .videos {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1200px) {
+  .videos {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
