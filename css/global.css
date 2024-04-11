@@ -7,14 +7,15 @@
 }
 
 :root {
-  --accent-color: #e96a4b;
-  --text-color: black;
-  --border-color: black;
+  --accent-color: #000000;
+  --text-color: rgb(151, 147, 147);
+  --border-color: rgb(197, 190, 190);
   font-family: "Rubik Glitch", system-ui;
   scroll-behavior: smooth;
 }
 
 p {
+  color: whitesmoke;
   font-family: "Gentium Book Plus", serif;
   font-weight: 400;
   font-style: normal;

@@ -4,11 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/index.merch.css">
+    <link rel="stylesheet" href="css/header.css">
   </head>
-  <body>
+  <header class="header">
+    <nav
+      class="header__address"
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="common-header-navigation.html"
+    ></nav>
+  </header>
+    <body>
     <section class="products container">
-      <h2 id="products" class="products__title">Merch</h2>
+      <h2 id="products" class="products__title">MERCH</h2>
       <div class="products__list">
         <article class="product-card">
           <img src="img/merch/LP.webp" alt="Deadend Men LP 2023" />
