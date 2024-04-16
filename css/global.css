@@ -8,8 +8,8 @@
 
 :root {
   --accent-color: #000000;
-  --text-color: rgb(151, 147, 147);
-  --border-color: rgb(197, 190, 190);
+  --text-color: rgb(182, 179, 179);
+  --border-color: rgb(202, 200, 200);
   font-family: "Rubik Glitch", system-ui;
   scroll-behavior: smooth;
 }

@@ -6,17 +6,37 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/index.merch.css">
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="https://bootswatch.com/5/sketchy/bootstrap.min.css"
+    
   </head>
-  <header class="header">
-    <nav
-      class="header__address"
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="common-header-navigation.html"
-    ></nav>
-  </header>
-    <body>
+  
+     <body>
+      <header class="header">
+        <nav class="header__nav container">
+          <!-- Navigation Block part 1 -->
+          <div class="header__menu menu">
+            <a href="#" class="button">ABOUT</a>
+            <a href="#" class="button">MUSIC</a>
+            <a href="gigs-page.html" class="button">GIGS</a>
+            <a href="index.merch.html" class="button">MERCH</a>
+            <a href="index.video.html" class="button">VIDEO</a>
+            <a href="#" class="button">CONTACTS </a>
+          </div>
+        </nav>
+        <div class="header__banner--main container">
+          <div class="header__title">
+            <div class="header__logo">
+              <a href="index.html" class="logo__link">
+                <img
+                  src="img/ddndmn-logo.svg"
+                  alt="Deadend Men Logo"
+                  class="logo__img"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
     <section class="products container">
       <h2 id="products" class="products__title">MERCH</h2>
       <div class="products__list">
@@ -216,4 +236,29 @@
       </div>
     </section>
   </body>
+  <header class="header">
+    <nav class="header__nav container">
+      <!-- Navigation Block part 1 -->
+      <div class="header__menu menu">
+        <p class="button">© All rights reserved</p>
+        <p><a href="deadendmenofficial@gmail.com" class="button"><img class="fb__icon" img src="img/email_icon.png" alt="Mail icon"></a></p>
+         <p><a href="https://twitter.com/DeadendMen" class="button"><img class="fb__icon" img src="img/x-logo.webp" alt="X icon"></a></p>
+          <p><a href="https://www.facebook.com/deadend.man" class="button"><img class="fb__icon" img src="img/Facebook_icon_(black).svg.png" alt="Facebook icon"></a></p>
+          <p><a href="https://www.instagram.com/deadendman666/" class="button"><img class="fb__icon" img src="img/insta-logo.png" alt="Instagram icon"></a></p>
+      </div>
+    </nav>
+    <div class="footer__banner--main container">
+      <div class="header__title">
+        <div class="header__logo">
+          <a href="index.html" class="logo__link">
+            <img
+              src="img/ddndmn-logo.svg"
+              alt="Deadend Men Logo"
+              class="logo__img"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
 </html>

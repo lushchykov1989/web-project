@@ -1,117 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Video Gallery</title>
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/video.css" />
-  </head>
-  <header class="header">
-    <nav
-      class="header__address"
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="common-header-navigation.html"
-    ></nav>
-    </header>
-  <body>
-    <div class="video-gallery container">
-      
-      <h2 id="products" class="products__title">VIDEO</h2>
-      <div>
-        <iframe class="videos"
-          src="https://www.youtube.com/embed/sxoPvCSROm8"
-          title="Deadend Men - Deadend Men (2023 Full Album)"
-          frameborder="0"
-          allowfullscreen
-        ></iframe>
-        <iframe class="videos"
-          src="https://www.youtube.com/embed/W4Zqo3etfIY"
-          title="Deadend Men - (No) Reason"
-          frameborder="0"
-          allowfullscreen
-        ></iframe>
-        <iframe class="videos"
-          src="https://www.youtube.com/embed/W4Zqo3etfIY"
-          title="Deadend Men - (No) Reason"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-        <iframe class="videos"
-          src="https://www.youtube.com/embed/9eawdXRtSd4"
-          title="Deadend Men - Message"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-        <iframe class="videos"
-          src="https://www.youtube.com/embed/EH78GenJxkM"
-          title="Deadend Men - Enjoy Your Joint"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-        <iframe class="videos"
-          src="https://www.youtube.com/embed/h0__bzR9iYk"
-          title="Deadend Men - Good New Stuff"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-        <iframe class="videos"
-          src="https://www.youtube.com/embed/HT93tnPf_ss"
-          title="Deadend Men - Gorgeous Liars, Proud Thieves"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-        <iframe class="videos"
-          src="https://www.youtube.com/embed/dvCkch8aQuU"
-          title="Deadend Men - Song in a Drunk Head"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-        <iframe class="videos"
-          src="https://www.youtube.com/embed/uHOg-jFq_sE"
-          title="Deadend Men - Borrowed Dreams"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-        <iframe class="videos"
-          src="https://www.youtube.com/embed/UDar9oMpk8A"
-          title="Deadend Men - Common Mind Inhumed"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-        <iframe class="videos"
-          src="https://www.youtube.com/embed/en5qDE-8kIY"
-          title="Deadend Men - Synonims"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-        <iframe class="videos"
-          src="https://www.youtube.com/embed/Ng4_w3FqK1Q"
-          title="Deadend Men - Someone In Between"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Gallery</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/video.css">
+  <link rel="stylesheet" href="https://bootswatch.com/5/sketchy/bootstrap.min.css"
+</head>
+<header class="header">
+  <nav class="header__nav container">
+    <!-- Navigation Block part 1 -->
+    <div class="header__menu menu">
+      <a href="#" class="button">ABOUT</a>
+      <a href="#" class="button">MUSIC</a>
+      <a href="gigs-page.html" class="button">GIGS</a>
+      <a href="index.merch.html" class="button">MERCH</a>
+      <a href="index.video.html" class="button">VIDEO</a>
+      <a href="#" class="button">CONTACTS </a>
     </div>
-  </body>
+  </nav>
+  <div class="header__banner--main container">
+    <div class="header__title">
+      <div class="header__logo">
+        <a href="index.html" class="logo__link">
+          <img
+            src="img/ddndmn-logo.svg"
+            alt="Deadend Men Logo"
+            class="logo__img"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+<body>
+  
+  <div class="container">
+    <h2 class="text-center mt-5 white-h2">DEADEND MEN</h2>
+    <div id="videoCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#videoCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#videoCarousel" data-slide-to="1"></li>
+        <li data-target="#videoCarousel" data-slide-to="2"></li>
+        <li data-target="#videoCarousel" data-slide-to="3"></li>
+        <li data-target="#videoCarousel" data-slide-to="4"></li>
+        <li data-target="#videoCarousel" data-slide-to="5"></li>
+        <li data-target="#videoCarousel" data-slide-to="6"></li>
+        <li data-target="#videoCarousel" data-slide-to="7"></li>
+        <li data-target="#videoCarousel" data-slide-to="8"></li>
+        <li data-target="#videoCarousel" data-slide-to="9"></li>
+        <li data-target="#videoCarousel" data-slide-to="10"></li>
+        <li data-target="#videoCarousel" data-slide-to="11"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sxoPvCSROm8" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/W4Zqo3etfIY" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9eawdXRtSd4" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EH78GenJxkM" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/h0__bzR9iYk" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HT93tnPf_ss" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dvCkch8aQuU" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uHOg-jFq_sE" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UDar9oMpk8A" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/en5qDE-8kIY" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ng4_w3FqK1Q" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UDar9oMpk8A" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#videoCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+<header class="header">
+  <nav class="header__nav container">
+    <!-- Navigation Block part 1 -->
+    <div class="header__menu menu">
+      <p class="button">© All rights reserved</p>
+      <p><a href="deadendmenofficial@gmail.com" class="button"><img class="fb__icon" img src="img/email_icon.png" alt="Mail icon"></a></p>
+       <p><a href="https://twitter.com/DeadendMen" class="button"><img class="fb__icon" img src="img/x-logo.webp" alt="X icon"></a></p>
+        <p><a href="https://www.facebook.com/deadend.man" class="button"><img class="fb__icon" img src="img/Facebook_icon_(black).svg.png" alt="Facebook icon"></a></p>
+        <p><a href="https://www.instagram.com/deadendman666/" class="button"><img class="fb__icon" img src="img/insta-logo.png" alt="Instagram icon"></a></p>
+    </div>
+  </nav>
+  <div class="footer__banner--main container">
+    <div class="header__title">
+      <div class="header__logo">
+        <a href="index.html" class="logo__link">
+          <img
+            src="img/ddndmn-logo.svg"
+            alt="Deadend Men Logo"
+            class="logo__img"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
 </html>
