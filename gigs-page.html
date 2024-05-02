@@ -3,45 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Concert Tour Dates</title>
     <link href="https://bootswatch.com/5/sketchy/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/index.css">
+    
+    <link rel="stylesheet" href="css/gigs.css">
 </head>
+
 <body>
-  <header class="header">
-    <nav class="header__nav container">
-      <!-- Navigation Block part 1 -->
-      <div class="header__menu menu">
-        <a href="#" class="button">ABOUT</a>
-        <a href="#" class="button">MUSIC</a>
-        <a href="gigs-page.html" class="button">GIGS</a>
-        <a href="index.merch.html" class="button">MERCH</a>
-        <a href="index.video.html" class="button">VIDEO</a>
-        <a href="#" class="button">CONTACTS </a>
-      </div>
-    </nav>
-    <div class="header__banner--main container">
-      <div class="header__title">
-        <div class="header__logo">
-          <a href="index.html" class="logo__link">
-            <img
-              src="img/ddndmn-logo.svg"
-              alt="Deadend Men Logo"
-              class="logo__img"
-            />
-          </a>
-        </div>
-      </div>
+  <nav class="header__nav container">
+    <div class="header__nav-logo">
+      <a class="header__nav-link" href="index.html">
+        <img src="img/logo-nav.svg" alt="Deadend Men Logo" class="header__nav-img" />
+      </a>
     </div>
-  </header>
-    <div class="container text-center">
+    <a href="#" class="header__menu-btn">
+      <span class="header__navicon"></span>
+    </a>
+    <div class="header__nav-menu">
+      <ul class="header__nav-list nav-list">
+        <li class="nav-list__link"><a href="#">ABOUT</a></li>
+        <li class="nav-list__link"><a href="https://push.fm/fl/deadendmen23">MUSIC</a></li>
+        <li class="nav-list__link"><a href="gigs-page.html">GIGS</a></li>
+        <li class="nav-list__link"><a href="index.merch.html">MERCH</a></li>
+        <li class="nav-list__link"><a href="index.video.html">VIDEO</a></li>
+        <li class="nav-list__link btn-nav btn-primary"><a href="#">CONTACT US</a></li>
+      </ul>
+    </div>
+  </nav>
+  <script>
+    document.querySelector('.header__menu-btn').addEventListener('click', function() {
+        document.querySelector('.header').classList.toggle('nav-visible');
+    });
+</script>
+    
+
+    <div id="image-marquee-container"></div>
+    <div class="container text-center" style="max-width: 1200px; margin: auto; position: relative; z-index: 2;">
         <h2 class="mb-4"><span class="bg-white p-2 rounded">2024</span></h2>
         <ul class="list-group mx-auto w-50">
             <li class="list-group-item">Apr. 26 - Savigny - Paris, France <button type="button" class="btn btn-danger">Sold out</button></li> 
-            <li class="list-group-item">Apr. 27 - Les Caves du Manior - Martigny, Switzerland <button type="button" class="btn btn-danger">Sold out</button></li>
+            <li class="list-group-item">Apr. 27 - Les Caves du Manoir - Martigny, Switzerland <button type="button" class="btn btn-danger">Sold out</button></li>
             <li class="list-group-item">Apr. 28 - Ziggy Club - Torino, Italy <button type="button" class="btn btn-dark"><a href="https://www.europaticket.com/en" target="_blank">Tickets</a></button></li>
             <li class="list-group-item">Apr. 30 - Raindogs House - Savona, Italy <button type="button" class="btn btn-dark"><a href="https://www.europaticket.com/en" target="_blank">Tickets</a></button></li>
-            <!-- Add the link to all other list items similarly -->
             <li class="list-group-item">May 02 - Nazca - Madrid, Spain <button type="button" class="btn btn-dark"><a href="https://www.europaticket.com/en" target="_blank">Tickets</a></button></li>
             <li class="list-group-item">May 03 - RCA Club - Lisbon, Portugal <button type="button" class="btn btn-dark"><a href="https://www.europaticket.com/en" target="_blank">Tickets</a></button></li>
             <li class="list-group-item">May 05 - Psilocybenea - Hondarribia, Spain <button type="button" class="btn btn-dark"><a href="https://www.europaticket.com/en" target="_blank">Tickets</a></button></li>
@@ -55,32 +58,10 @@
             <li class="list-group-item">May 15 - Hydrozagadka - Warsaw, Poland <button type="button" class="btn btn-dark"><a href="https://www.europaticket.com/en" target="_blank">Tickets</a></button></li>
             <li class="list-group-item">May 17 - Paavli Kultuurivabrik - Tallinn, Estonia <button type="button" class="btn btn-danger">Sold out</button></li>
             <li class="list-group-item">May 18 - Sonic Rites Festival - Helsinki, Finland <button type="button" class="btn btn-danger">Sold out</button></li>
+        
         </ul>
     </div>
-    <header class="header">
-        <nav class="header__nav container">
-          <!-- Navigation Block part 1 -->
-          <div class="header__menu menu">
-            <p class="button">© All rights reserved</p>
-            <p><a href="deadendmenofficial@gmail.com" class="button"><img class="fb__icon" img src="img/email_icon.png" alt="Mail icon"></a></p>
-             <p><a href="https://twitter.com/DeadendMen" class="button"><img class="fb__icon" img src="img/x-logo.webp" alt="X icon"></a></p>
-              <p><a href="https://www.facebook.com/deadend.man" class="button"><img class="fb__icon" img src="img/Facebook_icon_(black).svg.png" alt="Facebook icon"></a></p>
-              <p><a href="https://www.instagram.com/deadendman666/" class="button"><img class="fb__icon" img src="img/insta-logo.png" alt="Instagram icon"></a></p>
-          </div>
-        </nav>
-        <div class="footer__banner--main container">
-          <div class="header__title">
-            <div class="header__logo">
-              <a href="index.html" class="logo__link">
-                <img
-                  src="img/ddndmn-logo.svg"
-                  alt="Deadend Men Logo"
-                  class="logo__img"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-      </header>
+
+      <script src="js/gigs.js"></script>
 </body>
 </html>

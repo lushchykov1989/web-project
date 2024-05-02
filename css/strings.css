@@ -1,0 +1,85 @@
+.animated-carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.animated-carousel__inner {
+    display: flex;
+    white-space: nowrap;
+    animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }  /* Moves by half the total width to restart seamlessly */
+}
+
+.animated-carousel .product-card {
+    flex: 0 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 157px;  /* Adjust based on your needs */
+}
+
+.animated-carousel .product-card img {
+    height: 100%;  /* Make image fill the card vertically */
+    width: auto;  /* Maintain aspect ratio */
+}
+
+@media (max-width: 900px) {
+    .animated-carousel .product-card {
+        height: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+    .animated-carousel .product-card {
+        height: 75px;
+    }
+}
+
+@media (max-width: 330px) {
+    .animated-carousel .product-card {
+        height: 50px;
+    }
+}
+.animated-carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 150px; /* Set the height of the carousel container */
+}
+
+.animated-carousel__inner {
+    display: flex;
+    white-space: nowrap;
+    animation: scroll 30s linear infinite;
+}
+
+.animated-carousel .product-card {
+    flex: 0 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Set the height of each product card */
+}
+
+.animated-carousel .product-card img {
+    max-height: 100%; /* Images will scale to fill the height of the product card */
+    
+}
+.animated-carousel .product-card,
+.animated-carousel .product-card img {
+    margin: 0;
+    padding: 0;
+}
+.animated-carousel .product-card {
+    box-sizing: border-box;
+}
+.animated-carousel .product-card {
+    flex: 0 0 0; /* Якщо ви хочете показувати 5 карток одночасно */
+}

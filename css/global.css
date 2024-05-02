@@ -1,35 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&family=Rubik+Glitch&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Grenze+Gotisch:wght@100..900&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Peddana&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+ 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Abril Fatface", serif;
 }
-
+.h1, h2 {
+  font-family: "Abril Fatface", serif;
+}
 :root {
-  --accent-color: #000000;
-  --text-color: rgb(182, 179, 179);
-  --border-color: rgb(202, 200, 200);
-  font-family: "Rubik Glitch", system-ui;
-  scroll-behavior: smooth;
+    --light-color: #de6060;
+    --text-dark: #27292b;
+    --text-warm-light: #fff5eb;
+    --text-cold-light: #626060;
+    --text-menu-light: #b9aea7;
+    --dark-text-accent: #706e6e;
+    --light-text-accent: #e97171db;
+    --text-description-accent: #684f40;
+    --text-address-light: #706e6e;
+    --subtitle-menu-light: #fff5eb;
+    --subtitle-font-size: 20px;
+    --text-variant-grey: #595959;
+    --input-text: #7e7f81;
+    --btn-primary: #e1a455;
+    --btn-outline-dark: #684f40;
+    --btn-outline-light: #282626;
+    --btn-primary-hover: #ff8542;
+    --btn-outline-hover: #e1a455;
+    --light-link-header: #982b2bd4;
+    --light-link-hover: #684f40;
+    --input-background: #e5e5e5;
+    --background-dark: #27292b;
+    --about-us-header-text: #27292b;
+    --about-us-header-paragraph: #626060;
+    --about-us-link-border: #684f40;
+    --about-us-link-text: #684f40;
+    --border-contact-form-light: #83b3db;
+    --border-contact-form-dark: #84ADCB;
+    --our-bread-text-description: rgb(112,110,110);
+    --background-contact-form: rgba(0, 0, 0, 0.6);
+    --menu-btn-icon-light-hover: #ffffff1c;
+    --menu-btn-icon-dark-hover: #ffca843d;
+    --menu-svg-fill-hover: #ffac4040;
+    --error-color: red;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
 }
 
-p {
-  color: whitesmoke;
-  font-family: "Gentium Book Plus", serif;
-  font-weight: 400;
-  font-style: normal;
-}
 img {
-  display: block;
-  width: 100%;
+    display: block;
+    width: 100%;
 }
+
 .container {
-  max-width: 1200px;
-  margin: auto;
+    max-width: 1200px;
+    padding: 0 24px;
+    margin: auto;
 }
-@media (min-width: 980px) {
-    .container { 
-        padding: 0 0 px;
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 0 32px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        padding: 0 15px;
     }
 }

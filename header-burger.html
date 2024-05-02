@@ -1,0 +1,28 @@
+<body>
+  <nav class="header__nav container">
+    <div class="header__nav-logo">
+      <a class="header__nav-link" href="index.html">
+        <img src="img/logo-nav.svg" alt="Deadend Men Logo" class="header__nav-img" />
+      </a>
+    </div>
+    <a href="#" class="header__menu-btn">
+      <span class="header__navicon"></span>
+    </a>
+    <div class="header__nav-menu">
+      <ul class="header__nav-list nav-list">
+        <li class="nav-list__link"><a href="#">ABOUT</a></li>
+        <li class="nav-list__link"><a href="https://push.fm/fl/deadendmen23">MUSIC</a></li>
+        <li class="nav-list__link"><a href="gigs-page.html">GIGS</a></li>
+        <li class="nav-list__link"><a href="index.merch.html">MERCH</a></li>
+        <li class="nav-list__link"><a href="index.video.html">VIDEO</a></li>
+        <li class="nav-list__link btn-nav btn-primary"><a href="#">CONTACT US</a></li>
+      </ul>
+    </div>
+  </nav>
+  <script>
+    document.querySelector('.header__menu-btn').addEventListener('click', function() {
+        document.querySelector('.header').classList.toggle('nav-visible');
+    });
+</script>
+</body>
+    

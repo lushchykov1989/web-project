@@ -1,8 +1,9 @@
 @import "global.css";
+@import "header-burger.css";
 @import "header.css";
 @import "controls.css";
+@import "strings.css";
 @import "index.hero.css";
 @import "video.css";
 @import "index.merch.css";
 @import "common.footer.css";
-@import "gigs.css";
